@@ -1,0 +1,86 @@
+
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfólio Leonardo</title>
+  <style>
+    body { font-family: Arial, sans-serif; background: #f4f4f4; margin: 0; padding: 0; color: #333; }
+    header { background-color: #24292e; color: #fff; padding: 30px 20px; text-align: center; }
+    section { padding: 40px 20px; max-width: 900px; margin: auto; }
+    h1, h2 { margin-bottom: 10px; }
+    .bio { font-size: 1.1em; margin-bottom: 30px; }
+    .objetivo { background: #fff; padding: 20px; border-left: 5px solid #0366d6; margin-bottom: 30px; }
+    .projetos { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; }
+    .projeto { background: #fff; border-radius: 10px; padding: 20px; box-shadow: 0 2px 8px rgba(0,0,0,0.1); transition: transform 0.3s ease; }
+    .projeto:hover { transform: translateY(-5px); }
+    .projeto img { max-width: 100%; border-radius: 5px; }
+    .projeto h3 { margin-top: 10px; }
+    .projeto a { display: inline-block; margin-top: 10px; background: #0366d6; color: #fff; padding: 8px 12px; border-radius: 5px; transition: background 0.3s; }
+    .projeto a:hover { background: #024a9c; }
+    footer { background-color: #24292e; color: #fff; text-align: center; padding: 20px; }
+    .social-icons a { margin: 0 10px; color: #fff; font-size: 1.2em; }
+    @media (max-width: 600px) {
+      header h1 { font-size: 1.5em; }
+      .bio, .objetivo, .projeto p { font-size: 1em; }
+    }
+  </style>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+
+<header>
+  <h1>Leonardo da Rocha Maia</h1>
+  <p>Desenvolvedor Frontend Júnior</p>
+</header>
+
+<section class="objetivo">
+  <h2>Objetivo Profissional</h2>
+  <p>Atuar como Desenvolvedor Frontend Júnior, aplicando meus conhecimentos em HTML, CSS e JavaScript para construir interfaces modernas, acessíveis e responsivas.</p>
+</section>
+
+<section>
+  <h2>Sobre mim</h2>
+  <p class="bio">
+    Olá! Sou estudante de Desenvolvimento Frontend na EBAC. Tenho experiência com HTML, CSS e estou aprendendo JavaScript. Estou em transição de carreira e buscando minha primeira oportunidade na área de tecnologia.
+  </p>
+</section>
+
+<section>
+  <h2>Projetos</h2>
+  <div class="projetos">
+    <div class="projeto">
+      <img src="https://via.placeholder.com/400x250.png?text=Projeto+Frontend" alt="Projeto 1">
+      <h3>Meu Primeiro Site</h3>
+      <p>Site criado usando HTML e CSS. Projeto pessoal desenvolvido como parte do curso da EBAC.</p>
+      <a href="https://leonardorocha97.github.io/portfolio/" target="_blank">Ver projeto</a>
+    </div>
+
+    <div class="projeto">
+      <img src="https://via.placeholder.com/400x250.png?text=To-Do+List" alt="Projeto 2">
+      <h3>Lista de Tarefas</h3>
+      <p>Aplicação simples de lista de tarefas feita com HTML, CSS e JavaScript. Permite adicionar e remover tarefas dinamicamente.</p>
+      <a href="https://leonardorocha97.github.io/portfolio/Meusite.html" target="_blank">Ver projeto</a>
+    </div>
+
+    <div class="projeto">
+      <img src="https://via.placeholder.com/400x250.png?text=Landing+Page" alt="Projeto 3">
+      <h3>Landing Page de Produto</h3>
+      <p>Página de apresentação de um produto fictício. Design responsivo com HTML5 e CSS3.</p>
+      <a href="https://leonardorocha97.github.io/portfolio/index.html" target="_blank">Ver projeto</a>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <p>Contato: leonardodarochamaia@gmail.com</p>
+  <div class="social-icons">
+    <a href="https://github.com/leonardorocha97" target="_blank"><i class="fab fa-github"></i></a>
+    <a href="https://www.linkedin.com/in/seu-linkedin" target="_blank"><i class="fab fa-linkedin"></i></a>
+    <a href="mailto:leonardodarochamaia@gmail.com"><i class="fas fa-envelope"></i></a>
+  </div>
+</footer>
+
+</body>
+</html>
