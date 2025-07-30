@@ -1,52 +1,57 @@
-
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfólio Leonardo</title>
-  <style>
-    body { font-family: Arial, sans-serif; background: #f4f4f4; margin: 0; padding: 0; color: #333; }
-    header { background-color: #24292e; color: #fff; padding: 30px 20px; text-align: center; }
-    section { padding: 40px 20px; max-width: 900px; margin: auto; }
-    h1, h2 { margin-bottom: 10px; }
-    .bio { font-size: 1.1em; margin-bottom: 30px; }
-    .projetos { display: grid; grid-template-columns: 1fr 1fr; gap: 20px; }
-    .projeto { background: #fff; border-radius: 10px; padding: 20px; box-shadow: 0 2px 5px rgba(0,0,0,0.1); }
-    .projeto img { max-width: 100%; border-radius: 5px; }
-    .projeto h3 { margin-top: 10px; }
-    footer { background-color: #24292e; color: #fff; text-align: center; padding: 20px; }
-    a { color: #0366d6; text-decoration: none; }
-  </style>
-</head>
-<body>
-
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title> Wolf Sneakers</title>
+    <link rel="stylesheet" href="style.css">
+    <!--Cabeçalho-->
+</head> 
+<body>   
 <header>
-  <h1>Leonardo da Rocha Maia</h1>
-  <p>Desenvolvedor Frontend Júnior</p>
+    <h1> Wolf Sneakers</h1>
+    <p> Os melhores tênis para seu estilo!</p>
 </header>
 
-<section>
-  <h2>Sobre mim</h2>
-  <p class="bio">
-    Olá! Sou estudante de Desenvolvimento Frontend na EBAC. Tenho experiência com HTML, CSS e estou aprendendo JavaScript. Estou em transição de carreira e buscando minha primeira oportunidade na área de tecnologia.
-  </p>
-</section>
+<!--Navegação Principal-->
+<nav>
+    <ul>
+        <li><a href="#">Inicio</a></li>
+        <li><a href="#">Produtos</a></li>
+        <li><a href="#">Sobre</a></li>
+        <li><a href="#">Contato</a></li>
+    </ul>
+</nav>
 
-<section>
-  <h2>Projetos</h2>
-  <div class="projetos">
-    <div class="projeto">
-      <img src="https://via.placeholder.com/400x250.png?text=Projeto+Frontend" alt="Projeto 1">
-      <h3>Meu Primeiro Site</h3>
-      <p>Site criado usando HTML e CSS. Projeto pessoal desenvolvido como parte do curso da EBAC.</p>
-      <p><a href="https://seulink.github.io">Ver projeto</a></p>
-    </div>
-  </div>
-</section>
+<!--Conteudo Principal-->
+<main>
+    <!--Sessão de destaques-->
+    <section>
+        <h2> Destaques da Semana</h2>
+
+        <!--Artigos Individuais-->
+        <article>
+            <h3>Runner</h3>
+            <p> Tênis ideal para corrida com amortecimento premium.</p>
+        </article>
+
+        <article>
+            <h3>Urban Classic</h3>
+            <p>Desing Urbano, confortável e cheio de estilo.</p>
+        </article>
+    </section>
+
+    <!--Conteudo complementar-->
+    <aside>
+        <h2>Promoções</h2>
+        <p>Desconto de 20% nos modelos selecionados até domingo!.</p>
+    </aside>
+</main>
+
+<!--Rodapé-->
 
 <footer>
-  <p>Contato: leonardodarochamaia@gmail.com | <a href="https://github.com/seuusuario" style="color: #fff;">GitHub</a></p>
+    <p>&copy; 2025 Wolf Sneakers. Todos os direitos reservados.</p>
 </footer>
 
 </body>
